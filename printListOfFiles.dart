@@ -6,6 +6,7 @@ void main(List<String> args) {
   for(var elem = 0;elem < dir.listSync().length; elem++)
     {
       print(dir.listSync());
+      // loop
     }
   // for(var elem in dir.listSync())
   //   {
