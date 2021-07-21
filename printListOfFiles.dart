@@ -8,8 +8,4 @@ void main(List<String> args) {
       print(dir.listSync());
       // loop
     }
-  // for(var elem in dir.listSync())
-  //   {
-  //     print(dir.listSync());
-  //   }
 }
