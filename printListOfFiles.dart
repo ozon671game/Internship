@@ -7,5 +7,6 @@ void main(List<String> args) {
   for(var elem in dir.listSync())
     {
       print(dir.listSync());
+      // loop
     }
 }
