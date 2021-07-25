@@ -8,6 +8,4 @@ void main(List<String> args) {
       print(dir.listSync());
       // loop
     }
-
-  dir.listSync().forEach((element) => print(element));
 }
