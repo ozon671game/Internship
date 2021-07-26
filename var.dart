@@ -7,11 +7,10 @@ void main() {
 }
 
 Stream<String> readLine() =>
-    // stdin
-    // .transform(utf8.decoder)
-    // .transform(const LineSplitter());
-    var a = '112415414';
+    stdin
+    .transform(utf8.decoder)
+    .transform(const LineSplitter());
 
 void processLine(String line) {
-  //print(line);
+  print(line);
 }
